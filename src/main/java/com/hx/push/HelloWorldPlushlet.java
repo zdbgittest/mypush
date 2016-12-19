@@ -12,7 +12,6 @@ public class HelloWorldPlushlet {
 		}
 		@Override
 		protected Event pullEvent() {
-			System.out.println("开始推送了");
 			Event event = Event.createDataEvent("/cuige/he");
 			event.setField("mess", "hello,world!Plushlet!");
 			return event;

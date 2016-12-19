@@ -1,11 +1,11 @@
-package org.apache.jsp;
+package org.apache.jsp.WEB_002dINF.jsp;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import java.util.*;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class pushlet_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final javax.servlet.jsp.JspFactory _jspxFactory =
@@ -55,27 +55,9 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("<html>\r\n");
       out.write("\t<head>\r\n");
-      out.write("\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n");
-      out.write("\t\t<meta http-equiv=\"Pragma\" content=\"no-cache\" />\r\n");
-      out.write("\t\t<script type=\"text/javascript\" src=\"js/ajax-pushlet-client.js\"></script>\r\n");
-      out.write("\t\t<script type=\"text/javascript\" src=\"js/jquery-3.1.1.js\"></script>\t\t\r\n");
-      out.write("\t\t<script type=\"text/javascript\">\r\n");
-      out.write("\t\t\tPL._init(); \r\n");
-      out.write("\t\t\tPL.joinListen('/cuige/he');\r\n");
-      out.write("\t\t\tfunction onData(event) { \r\n");
-      out.write("\t\t\t\t\r\n");
-      out.write("\t\t\t\tvar html = \"<p>\"+event.get(\"mess\")+\"</p>\";\r\n");
-      out.write("\t        \t$(\"#divId\").append(html);\r\n");
-      out.write("\t\t\t}\r\n");
-      out.write("\t\t</script>\r\n");
       out.write("\t</head>\r\n");
       out.write("\t<body>\r\n");
-      out.write("\t\t<center>\r\n");
-      out.write("\t\t<h1>\r\n");
-      out.write("\t\t\tmy first pushlet!\r\n");
-      out.write("\t\t</h1>\r\n");
-      out.write("\t\t</center>\r\n");
-      out.write("\t\t<div id=\"divId\"></div>\r\n");
+      out.write("\t\t我已经推送完毕\r\n");
       out.write("\t</body>\r\n");
       out.write("</html>\r\n");
       out.write("\r\n");
