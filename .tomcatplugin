@@ -15,6 +15,7 @@
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar</webClassPathEntry>
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar</webClassPathEntry>
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar</webClassPathEntry>
+        <webClassPathEntry>D:/maven-3.1.0/.m2/repository/nl/justobjects/pushlet/pushlet/2.0.4/pushlet-2.0.4.jar</webClassPathEntry>
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/org/aspectj/aspectjweaver/1.8.6/aspectjweaver-1.8.6.jar</webClassPathEntry>
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar</webClassPathEntry>
         <webClassPathEntry>D:/maven-3.1.0/.m2/repository/org/springframework/spring-aspects/4.1.7.RELEASE/spring-aspects-4.1.7.RELEASE.jar</webClassPathEntry>
